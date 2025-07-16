@@ -831,19 +831,20 @@
     }
 
     .flores-encima {
-        position: fixed;
-        top: -100px;
-        /* sube la imagen 100px por encima del borde superior */
-        left: -100px;
-        width: 80%;
-        max-height: none;
-        /* elimina limitación de altura */
-        height: auto;
-        object-fit: cover;
-        z-index: 9999;
-        /* asegura que esté encima de todo */
-        pointer-events: none;
-    }
+.flores-encima {
+    position: absolute;
+    top: -120px;
+    /* sube la imagen 100px por encima del borde superior */
+    left: -120px;
+    width: 70%;
+    max-height: none;
+    /* elimina limitación de altura */
+    height: auto;
+    object-fit: cover;
+    z-index: 9999;
+    /* asegura que esté encima de todo */
+    pointer-events: none;
+}
 </style>
 
 <body>
